@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>EOM-Project</title>
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+</head>
+
+<body> 
+    <p text="black">
+    <div id="wrapper"></div>
+           <div id="header">
+            <h1>DELICIOUS MALAYSIAN FOODS</h1>
+            <div id="logo"></div>
+            <img src="index pictures/logo.png" alt="foodlogo">
+            <div id="search">
+                <input type="search" placeholder="Search Here">
+                <input type="submit" value="Search">        
+            </div>
+    
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="order.html">Order</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+
+        <div class="container">
+              <h2>Contact Us</h2>
+              <p>Swing by for a Warm Meal, or leave us a message:</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="index pictures/contact.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="south africa">South Africa</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
